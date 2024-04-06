@@ -33,6 +33,27 @@
     </item>
     
     <item>
+      <title>Markdown</title>
+      <link>https://aamarcev.github.io/post/markdown/</link>
+      <pubDate>Sat, 06 Apr 2024 17:54:29 +0300</pubDate>
+      <guid>https://aamarcev.github.io/post/markdown/</guid>
+      <description>&lt;h1 id=&#34;markdown&#34;&gt;Markdown&lt;/h1&gt;
+&lt;p&gt;Облегчённый язык разметки, созданный с целью обозначения форматирования в простом тексте, с максимальным сохранением его читаемости человеком, и пригодный для машинного преобразования в языки для продвинутых публикаций (HTML, Rich Text и других).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Пост о прошедшей неделе</title>
+      <link>https://aamarcev.github.io/post/last_week1/</link>
+      <pubDate>Sat, 06 Apr 2024 17:53:58 +0300</pubDate>
+      <guid>https://aamarcev.github.io/post/last_week1/</guid>
+      <description>&lt;h1 id=&#34;прошедшая-учебная-неделя&#34;&gt;Прошедшая учебная неделя&lt;/h1&gt;
+&lt;p&gt;Неделя как обычно выдалась насыщенной.
+В понедельник онлайн лекция с утра, а дальше свободный день, который я посвятил собственным делам. Во вторник сходил в зал, для того чтоб не давать телу полностью отвыкнуть от физических нагрузок. В среду же уже началась более активная учеба, стандартный набор пар, а в перерыве подготовка к завтрашней контрольной по математической логике. Четверг начался очень рано, и вот я уже в университете пишу контрольную к которой готовился вчера. День как обычно был насыщен математикой, чему я только рад. В пятницу как всегда пары по иностранным языкам и на этом моя активность на неделе подходит к концу.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Непрерывная интеграция и развертывание</title>
       <link>https://aamarcev.github.io/post/cd/</link>
       <pubDate>Sat, 16 Mar 2024 03:57:20 +0300</pubDate>
@@ -291,7 +312,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-612954873&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-271359648&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -301,7 +322,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-612954873&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-271359648&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
